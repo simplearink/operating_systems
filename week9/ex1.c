@@ -49,6 +49,7 @@ int main(int argv, char**argc) {
                         min = pageTable[j].history;
                         minIter = j;
                     }
+                    pageTable[j].history = div(pageTable[j].history, 2).quot;
                 }
                 pageTable[minIter].pageNum = ch;
                 pageTable[minIter].history = 128;
