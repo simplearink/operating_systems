@@ -1,0 +1,4 @@
+../week10/_ex2.txt
+../week1/file.txt
+
+After command $ find <path> –inum inodenumber -exec rm {} \; nothing was written, links and files above were deleted.

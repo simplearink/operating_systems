@@ -1,0 +1,7 @@
+-rw-rw-rw- 1 arina arina 0 окт 25 13:52 _ex3.txt
+-rwxrw-rwx 1 arina arina 0 окт 25 13:52 _ex3.txt
+-rwxrwxrwx 1 arina arina 0 окт 25 13:52 _ex3.txt
+
+660 - user permission:6 = 110(read, write, but not execute), group permission:6 = 110(read, write, but not execute), other permission:0 (neither read, write nor execute)
+775 - user and group may read, write, execute, others may write and execute
+777 - user, group and other may read, write and execute
