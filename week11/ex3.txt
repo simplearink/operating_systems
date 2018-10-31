@@ -1,0 +1,8 @@
+After task 2 after \n the text is printed and line buffer is emptied.
+
+The first program holds "Hello" in a line buffer and after fork() call parent 
+and child processes hold that "Hello" in their buffers. After \n the text is
+printed and each buffer is emptied. So there are two prints "Hello". 
+
+The second program prints "Hello" before fork() call, so after fork() we
+have nothing in buffer. So "Hello" is printed only once
