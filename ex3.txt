@@ -1,0 +1,4 @@
+There's no difference in using O_SYNC or O_ASYNC parameters when the size
+of data is small. When the size of it is increased: 1) O_ASYNC works faster
+than O_SYNC: reading, buffering, writing; 2) the closer the size of -DBUF_SIZE
+to the size of data the better.  
