@@ -1,0 +1,15 @@
+1) Avoidance is a good strategy, because it is always better to avoid rather
+than fix problem. But avoidance requires some special information in advance.
+
+If there's no such information, we can use one of two other stratagies:
+prevention or recovery.
+
+2) Prevention seems better to me: as I mentioned, it is always better to
+prevent problem. Prevention is used when we can "attack" at least one of
+four conditions:
+- Mutual-Exclusion
+- Hold-and-Wait
+- No-Preemption
+- Circular wait
+
+3) If we cannot prevent, we need to fix. Here recovery is used.
